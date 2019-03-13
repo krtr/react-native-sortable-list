@@ -22,6 +22,7 @@ type DataByString = {
 type Data = DataByNumber | DataByString;
 
 export interface RowProps {
+    released: boolean
     active: boolean
     data: DataValue
     key?: DataKey
